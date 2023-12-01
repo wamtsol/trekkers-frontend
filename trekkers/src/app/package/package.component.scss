@@ -1,0 +1,61 @@
+.package_header{
+    background: url(../../assets/unsplash_Fn27DlI8bZ8.png) no-repeat;
+    background-size: cover;
+    padding: 50px 0px 70px;
+    h1 {
+        color: #FFF;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Signika', sans-serif;
+        text-align: center;
+    }
+}
+.search-filter-field {
+    width: 100%;
+    position: relative;
+    margin-top: -40px;
+}
+.search-filter-field{
+    .container:first-child {
+        margin-bottom: 15px;
+    }
+}
+.prebuilt-package {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #FFF;
+    padding: 15px;
+    margin-bottom: 30px;
+    .prebuilt-package-details{
+        h3 {
+            color: #000;
+            font-size: 18px;
+            font-style: normal;
+            line-height: 110%;
+            margin-bottom: 6px;
+            font-family: 'Red Hat Display', sans-serif;
+        }
+        p {
+            color: #A19F9F;
+            font-size: 14px;
+            font-style: normal;
+            line-height: 120%;
+            margin: 0px;
+            font-family: 'Red Hat Display', sans-serif;
+        }
+    }
+    a{
+        font-size: 22px;
+        padding: 23px 10px;
+        height: 60px;
+        background-color: #2DAAE1;
+        line-height: 60px;
+        color: #fff;
+        text-decoration: none;
+    }
+}

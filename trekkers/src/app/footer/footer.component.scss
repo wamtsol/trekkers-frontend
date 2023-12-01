@@ -1,0 +1,50 @@
+.footer {
+    background: #59473d;
+    padding: 50px 0px;
+    .footer_logo {
+        margin-bottom: 12px;
+    }
+    .footer_section{
+        p {
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px;
+        }
+        h3 {
+            color: #FFF;
+            font-family: Signika;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 18px;
+        }
+        a {
+            display: block;
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 29px;
+            text-decoration: none;
+        }
+        .contact_info{
+            address {
+                color: #FFF;
+                font-family: Montserrat;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .social_icon {
+        display: flex;
+        gap: 6px;
+    }
+}

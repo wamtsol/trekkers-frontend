@@ -1,0 +1,108 @@
+.trakkersSlider{
+    position: relative;
+    z-index: 1;
+    min-height: 768px;
+    height: 100vh;
+    img {
+        width: 100%;
+    }
+    .slider-details {
+        position: absolute;
+        top: 200px;
+        transform: translateX(-50%);
+        left: 50%;
+        max-width: 560px;
+        h1 {
+            color: #FFF;
+            text-align: center;
+            font-family: 'Signika', sans-serif;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 60px;
+            margin-bottom: 20px;
+            span {
+                display: block;
+                font-weight: 400;
+            }
+        }
+        p {
+            color: #FFFBFB;
+            text-align: center;
+            font-family: 'Red Hat Display', sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+.search-filter {
+    position: absolute;
+    top: 65%;
+    width: 900px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.upcomingEvent{
+    .row {
+        align-items: center;
+    }
+}
+.adventures .row {
+    margin-bottom:30px;
+}
+.guides{
+    h2 {
+        color: #fff !important;
+    }
+    .readMore{
+        a {
+            color: #fff !important;
+        }
+    }
+  }
+  .guides h2 {
+    color: #fff;
+}
+@media only screen and (max-width: 767px) {
+    .trakkersSlider{
+        position: relative;
+        transform: translate(auto);
+        height:auto;
+        min-height: auto;
+    }
+    .search-filter{
+        position: relative;
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .slider-details{
+        transform: translateX(0) !important;
+        left: 0% !important;
+        max-width: 100% !important;
+        padding: 0px 20px;
+    }
+    .slider-details{
+        h1 {
+            font-size: 25px !important;
+            line-height: 30px !important;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    .trakkersSlider{
+        > img{
+            height: 500px;
+            object-fit: cover;
+        }
+    }
+    .search-filter-field-inn{
+        .row {
+            gap: 10px;
+        }
+    }
+    .row{gap: 15px;}
+}
